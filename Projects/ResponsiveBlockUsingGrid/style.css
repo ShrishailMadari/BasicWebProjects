@@ -1,0 +1,19 @@
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 1200px;
+    gap: 1rem;
+    margin: 0 auto;
+    background-color: rgb(237, 237, 231); /* Add background color for better visualization */
+    padding: 16px; /* Add padding to visually separate the grid from the border */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.block {
+    background-color: #c2e70c;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
